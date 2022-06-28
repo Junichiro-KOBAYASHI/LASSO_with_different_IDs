@@ -1,4 +1,4 @@
-# Partially owed to:
+# Partially cited from:
 # https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py
 
 """
