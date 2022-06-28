@@ -164,7 +164,7 @@ So, if you are to analyze data named `sample01.csv` and would like to get output
 
 # Technology used and acknowledgements
 
-As mentioned in [System requirements and development](#System requirements and development), this software is based on the following wonderful libraries:
+As mentioned in [System requirements and development](#System%20requirements%20and%20development), this software is based on the following wonderful libraries:
 
 - Python 3.9.1 
 - Pandas 1.4.2
