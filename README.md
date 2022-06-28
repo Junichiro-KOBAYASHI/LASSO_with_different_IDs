@@ -36,9 +36,11 @@ As of June 28, 2022, this software is compatible to:
 - matplotlib 3.5.1 
 
 <h3>Obtain this software</h3>
-Just execute `git clone` on your terminal.
+Just execute `git clone ~~` on your terminal.
 
-To check the compatibility and arrange an environment
+To check the compatibility and arrange an environment, go to the directory you've cloned this and execute the following:
+
+`python main.py`
 
 # Usage
 # Technology used
