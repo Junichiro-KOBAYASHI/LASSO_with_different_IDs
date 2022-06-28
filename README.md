@@ -129,6 +129,9 @@ The text file named `xxx_output.txt` contains the following information:
   - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
   - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
 
+> **warning**
+> `demo_lasso_withID.csv`'s feature values are randomly generated, so the LASSO results should look highly peculiar, but please don't worry!
+
 The PDF files are the graphs between:
 - Alphas (in normal scale) and AICs(`xxx_normalScale.pdf`)
 - Alphas (in log scale) and AICs (`xxx_logScale.pdf`)
