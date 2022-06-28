@@ -38,17 +38,17 @@ As of June 28, 2022, this software is compatible to:
 <h3>Obtain this software</h3>
 Just execute `git clone ~~` on your terminal.
 
-Now, the directories should look like:
+Now, the directories should look like:<br>
 LASSO_with_different_IDs<br>
-│  main.py<br>
-│  processor.py<br>
+│main.py<br>
+│processor.py<br>
 │<br>
 ├─1_BEFORE_SPLIT<br>
-│      demo_lasso_withID.csv<br>
+│demo_lasso_withID.csv<br>
 │<br>
 └─mymodules<br>
-  data_split_with_ID_plain.py<br>
-  lasso_demo_AIC_plain.py<br>
+data_split_with_ID_plain.py<br>
+lasso_demo_AIC_plain.py<br>
 
 
 To check the compatibility and arrange an environment, go to the directory you've cloned this and execute the following:
