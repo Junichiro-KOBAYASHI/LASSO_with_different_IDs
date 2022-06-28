@@ -10,6 +10,12 @@ Let's assume that the table above is related to novels by five authors (novelist
 
 If you are to analyze/predict the value of "Year" with LASSO analysis based on hold-out validation, you will face one problem. That is, you should not have the same author both in train and test sets.
 
+For instance, if your train set contains works by novelist_a, then your test set should not contain any of their writings, to make hold-out validation secure.
+
+This software arranges that, having the data split like:
+
+
+
 <h2>System requirements</h2>
 As of June 28, 2022, this software is compatible to:
 
