@@ -37,7 +37,7 @@ As of June 28, 2022, this software is compatible to:
 
 In terms of operating systems I have checked:
 - Windows 10.0
-- 
+- Ubuntu 20.04.4 LTS
 
 
 
