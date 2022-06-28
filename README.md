@@ -161,5 +161,19 @@ So, if you are to analyze data named `sample01.csv` and would like to get output
 > Also, in terms of `-i` and `-l`, if the default setting is not functionable for you, check your CSV and find the proper column name:
 > In the below, default setting will work properly, based on the corresponding column names
 > ![gazou1](https://user-images.githubusercontent.com/108203298/176132942-16a642ce-2cc8-4b25-b971-e755a5e37d12.png)
-a
-# Technology used
+
+# Technology used and acknowledgements
+
+As mentioned in [System requirements and development](#System requirements and development), this software is based on the following Python libraries:
+
+- Python 3.9.1 
+- Pandas 1.4.2
+- Numpy 1.22.3 
+- scikit-learn 1.0.2 
+- matplotlib 3.5.1 
+
+Also, I have to mention that [the article](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py) published by scikit-learn website gave me an inspiration, and the following part of the module `lasso_demo_AIC_plain.py` is cited from it, so if necessary, please cite it when using this software.
+
+# License
+
+This software is distributed under the MIT license. For more details, please visit `LICENSE.txt`.
