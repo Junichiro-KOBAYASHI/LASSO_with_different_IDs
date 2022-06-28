@@ -226,9 +226,11 @@ plt.plot(
 This software is distributed under the MIT license. For more details, please visit `LICENSE`.
 
 # Contact
-Junichiro KOBAYASHI almathiscenamiisento55dayone★gmail（●＾o＾●）com
+Junichiro KOBAYASHI 
+
+almathiscenamiisento55dayone★gmail♪com
 - ★ stands for "at"
-- （●＾o＾●）　stands for "dot"
+- ♪ stands for "dot"
 
 
 
