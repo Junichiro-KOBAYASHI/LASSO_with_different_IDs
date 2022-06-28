@@ -1,12 +1,6 @@
 # LASSO_with_different_IDs
 A software that helps you keep separated different IDs (e.g., AUTHORS_OF_THE_NOVELS) when doing LASSO regression (e.g., whose data label is PUBLICATION_YEAR) and hold-out validation.
 
-1. [About] (# About)
-1. [System requirements and development] (#System%20requirements&20and%20development)
-1. [Usage] (#Usage)
-1. [Technology used] (# Technology%20used)
-
-
 # About
 This software helps you handle LASSO analysis with such data as:
 
@@ -27,9 +21,9 @@ This software arranges that, having the data split like:
 (Test set: novelist _a, and _d)
 ![table2022_test](https://user-images.githubusercontent.com/108203298/176084984-175dfa26-d8f5-40ee-ab7e-a9a6775d4e45.png)
 
-The splitting process is based on Python's random.sample() function. And the proportion of the train set is calculated as 
+The splitting process is based on Python's `random.sample()` function. And the proportion of the train set is calculated as 
 
-int((the number of all IDs, in this case authors) * 0.7)
+`int((the number of all IDs, in this case authors) * 0.7)`
 
 
 # System requirements and development
@@ -40,6 +34,8 @@ As of June 28, 2022, this software is compatible to:
 - Numpy 1.22.3 
 - scikit-learn 1.0.2 
 - matplotlib 3.5.1 
+
+
 
 # Usage
 # Technology used
