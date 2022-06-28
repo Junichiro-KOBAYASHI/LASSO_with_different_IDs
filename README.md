@@ -104,6 +104,22 @@ You will find (by default) a file named `demo_lasso_withID.csv` , which was show
 ## 2_AFTER_SPLIT
 In this directory, you will find CSV files after being split. File names are automatically arranged (`xxx_train.csv` and `xxx_test.csv`).
 
-        
+## 3_LASSO_RESULTS
+The text file named `xxx_output.txt` contains the following information:
+- IDs included in the train/test set
+- Your envirioment (version information of the library used)
+- Results obtained in the train set
+        - Alphas (regularization parameter of LASSO) investigated (in `list` format)
+        - The best alpha in terms of AIC (Akaike Information Criterion) (in `float` format)
+        - AIC scores recorded with each alpha (in `list` format)
+        - The coefficient values recorded in terms of the AIC
+        - The intercept (bias) of the best model in terms of the AIC
+        - Coefficient path along with each alpha (in `dictionary` format; key: feature names, value: a `list` of coefficient values)
+        - The path of MSEs (mean squared errors) along with alphas investigated
+        - The path of MAEs (mean absolute errors) along with alphas investigated
+        - The path of R^2 scores (coefficient of determination) along with alphas investigated
+        - 
+- 
+
 # Usage
 # Technology used
