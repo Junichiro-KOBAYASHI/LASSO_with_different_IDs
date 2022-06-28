@@ -102,6 +102,8 @@ You will find (by default) a file named `demo_lasso_withID.csv` , which was show
 
 
 ## 2_AFTER_SPLIT
+In this directory, you will find CSV files after being split. File names are automatically arranged (`xxx_train.csv` and `xxx_test.csv`).
+
         
 # Usage
 # Technology used
