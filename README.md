@@ -162,6 +162,7 @@ Options:
 </pre>
 
 So, if you are to analyze data named `sample01.csv` and would like to get output files (TXT and PDFs) named like `experiment01_coefPath.pdf`, then you have to execute `main.py` the following way:
+
 `$ python main.py -d sample01.csv -g experiment01`
 
 > **warning**
