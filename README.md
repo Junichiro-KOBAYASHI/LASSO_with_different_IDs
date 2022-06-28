@@ -97,10 +97,11 @@ LASSO_PROJECT_WITH_AUTHOR_ID_TEST
 For each of the above, you can find explanations below.
 
 
-<h2>1_BEFORE_SPLIT</h2>
-You will find (by default) a file named `demo_lasso_withID.csv` , which was shown on the top of [About](#About).
+## 1_BEFORE_SPLIT
+You will find (by default) a file named `demo_lasso_withID.csv` , which was shown on the top of [About](#About
 
-<h2>2_AFTER_SPLIT</h2>
+
+## 2_AFTER_SPLIT
         
 # Usage
 # Technology used
