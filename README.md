@@ -58,9 +58,44 @@ To check the compatibility and arrange an environment, go to the directory you'v
 
 `$ python main.py`
 
+If you have successfully passed this, process the directory will now look like:
+<pre>
+LASSO_PROJECT_WITH_AUTHOR_ID_TEST
+│  main.py
+│  processor.py
+│
+├─1_BEFORE_SPLIT
+│      demo_lasso_withID.csv
+│
+├─2_AFTER_SPLIT
+│      demo_lasso_withID_test.csv
+│      demo_lasso_withID_train.csv
+│
+├─3_LASSO_RESULTS
+│      20220628_1159_39_demo_coefPath.pdf
+│      20220628_1159_39_demo_coefPath_logScale.pdf
+│      20220628_1159_39_demo_logScale.pdf
+│      20220628_1159_39_demo_normalScale.pdf
+│      20220628_1159_39_output.txt
+│
+├─logfiles
+│      log.txt
+│
+├─mymodules
+│  │  data_split_with_ID_plain.py
+│  │  lasso_demo_AIC_plain.py
+│  │
+│  └─__pycache__
+│          data_split_with_ID_plain.cpython-39.pyc
+│          lasso_demo_AIC_plain.cpython-39.pyc
+│
+└─__pycache__
+        processor.cpython-39.pyc
+</pre>
 
+For each of the above, you can find explanations below.
 
-If you have successfully passed this 
-
+<h2>1_BEFORE_SPLIT</h2>
+        
 # Usage
 # Technology used
