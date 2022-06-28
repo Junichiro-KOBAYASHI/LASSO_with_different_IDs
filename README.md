@@ -98,7 +98,7 @@ For each of the above, you can find explanations below.
 
 
 ## 1_BEFORE_SPLIT
-You will find (by default) a file named `demo_lasso_withID.csv` , which was shown on the top of [About](#About
+You will find (by default) a file named `demo_lasso_withID.csv` , which was shown on the top of [About](#About)
 
 
 ## 2_AFTER_SPLIT
