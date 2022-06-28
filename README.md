@@ -35,7 +35,8 @@ As of June 28, 2022, this software is compatible to:
 - scikit-learn 1.0.2 
 - matplotlib 3.5.1 
 
-<h3>Obtain this software</h3>
+
+<h2>Obtain this software</h2>
 If you do not have some of the libraries required (shown just above), install them.
 
 Then, just execute `git clone ~~` on your terminal.
@@ -95,7 +96,9 @@ LASSO_PROJECT_WITH_AUTHOR_ID_TEST
 
 For each of the above, you can find explanations below.
 
+
 <h2>1_BEFORE_SPLIT</h2>
+You will find `demo_lasso_withID.csv`, which is 
         
 # Usage
 # Technology used
