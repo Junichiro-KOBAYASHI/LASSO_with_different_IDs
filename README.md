@@ -39,7 +39,7 @@ As of June 28, 2022, this software is compatible to:
 <h2>Obtain this software</h2>
 If you do not have some of the libraries required (shown just above), install them.
 
-Then, just execute `git clone ~~` on your terminal.
+Then, just execute `git clone ○○` on your terminal.
 
 Now, the directories should look like:<br>
 <pre>
