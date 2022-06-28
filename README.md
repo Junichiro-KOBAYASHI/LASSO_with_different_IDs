@@ -36,7 +36,9 @@ As of June 28, 2022, this software is compatible to:
 - matplotlib 3.5.1 
 
 <h3>Obtain this software</h3>
-Just execute `git clone ~~` on your terminal.
+If you do not have some of the libraries required (shown just above), install them.
+
+Then, just execute `git clone ~~` on your terminal.
 
 Now, the directories should look like:<br>
 <pre>
@@ -56,6 +58,9 @@ To check the compatibility and arrange an environment, go to the directory you'v
 
 `python main.py`
 
+
+
+If you have successfully passed this 
 
 # Usage
 # Technology used
