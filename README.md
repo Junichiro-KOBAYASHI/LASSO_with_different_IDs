@@ -10,7 +10,7 @@ Let's assume that the table above is related to novels by five authors (novelist
 
 If you are to analyze/predict the value of "Year" with LASSO analysis based on hold-out validation, you will face one problem. That is, you should not have the same author both in train and test sets.
 
-For instance, if your train set contains works by novelist_b, then your test set should not contain any of their writings, to make hold-out validation secure.
+For instance, if your train set contains works by novelist_b, then your test set should not contain any of their writings, to make hold-out validation secure, if you want to estimate language change itself (i.e., the transition of linguistic characteristics INDEPENDENT FROM authors).
 
 This software arranges that, having the data split like:
 
