@@ -128,7 +128,7 @@ The text file named `xxx_output.txt` contains the following information:
         - The path of R^2 scores (coefficient of determination) along with alphas investigated
         - 
         - 
-- 
+a 
 
 # Usage
 # Technology used
