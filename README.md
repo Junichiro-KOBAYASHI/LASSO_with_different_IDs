@@ -142,7 +142,7 @@ The PDF files are the graphs between:
 All your inputs will be automatically recorded into `log.txt`.
 
 # Usage
-In general all you have to do is execute `main.py`. But you have know aware of the following options:
+In general all you have to do is execute `main.py`. But you have got to be aware of the following options:
 <pre>
 Usage: main.py [options]
 
