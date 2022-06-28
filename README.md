@@ -109,9 +109,8 @@ The text file named `xxx_output.txt` contains the following information:
 - IDs (e.g., author_a, author_b, ...) included in the train/test set
 - Your envirioment (version information of the library used)
 - Results obtained in the train set
-        - Alphas (regularization parameter of LASSO) investigated (in `list` format)
-        - 
-        - The best alpha in terms of AIC (Akaike Information Criterion) (in `float` format)
+        - Alphas (regularization parameter of LASSO) investigated (in `list` format)<br>
+        - The best alpha in terms of AIC (Akaike Information Criterion) (in `float` format)<br>
         - 
         - AIC scores recorded with each alpha (in `list` format)
         - 
