@@ -21,6 +21,10 @@ This software arranges that, having the data split like:
 (Test set: novelist _a, and _d)
 ![table2022_test](https://user-images.githubusercontent.com/108203298/176084984-175dfa26-d8f5-40ee-ab7e-a9a6775d4e45.png)
 
+The splitting process is based on Python's random.sample() function. And the proportion of the train set is calculated as 
+
+str((the number of all IDs, in this case authors) * 0.7)
+
 <h2>System requirements</h2>
 As of June 28, 2022, this software is compatible to:
 
