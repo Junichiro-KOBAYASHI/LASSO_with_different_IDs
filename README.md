@@ -98,7 +98,9 @@ For each of the above, you can find explanations below.
 
 
 <h2>1_BEFORE_SPLIT</h2>
-You will find <pre>demo_lasso_withID.csv</pre> , which is 
+You will find `demo_lasso_withID.csv` , which was shown on the top of this README.
+
+<h2>2_AFTER_SPLIT</h2>
         
 # Usage
 # Technology used
