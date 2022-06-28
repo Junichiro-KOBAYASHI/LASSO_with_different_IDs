@@ -3,6 +3,7 @@ A software that helps you keep separated different IDs (e.g., AUTHORS_OF_THE_NOV
 
 <h2>How it works</h2>
 This software helps you handle LASSO analysis with such data as:
+
 ![table2022](https://user-images.githubusercontent.com/108203298/176083539-db34aff0-d9e8-4f58-8f15-63c2479e8798.png)
 
 
