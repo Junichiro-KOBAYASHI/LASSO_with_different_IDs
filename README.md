@@ -130,9 +130,27 @@ The PDF files are the graphs between:
 - Alphas (in log scale) and coefficients of every feature(`xxx_coefPath_logScale.pdf`)
 
 > **warning**
-> These parts are partially owed to [an article of scikit-learn](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py), so check it too
-z
+> These parts (those related to PDFs) are partially cited from [an article of scikit-learn](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py), so check it too, and if necessary, cite it
 
 
 # Usage
+In general all you have to do is execute `main.py`. But you have know aware of the following options:
+<pre>
+Usage: main.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -d DATA, --data=DATA  CSV data to load. Give a data BEFORE splitting.
+                        Default: demo_lasso_withID.csv
+  -g GRAPH, --graph=GRAPH
+                        Based on your input to -g, PDF files' titles will be
+                        arranged. Default: demo (or if you go so far as adding
+                        extensions, it causes no problem; demo.pdf
+  -i ID, --id=ID        The name of your CSV's column that corresponds to IDs.
+                        Default: ID
+  -l LABEL, --label=LABEL
+                        The name of your CSV's column that corresponds to
+                        labels. Default: Year
+</pre>
+
 # Technology used
