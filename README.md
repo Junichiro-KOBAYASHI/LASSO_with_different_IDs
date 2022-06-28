@@ -164,7 +164,7 @@ So, if you are to analyze data named `sample01.csv` and would like to get output
 
 # Technology used and acknowledgements
 
-As mentioned in [System requirements and development](#System requirements and development), this software is based on the following Python libraries:
+As mentioned in [System requirements and development](#System requirements and development), this software is based on the following wonderful libraries:
 
 - Python 3.9.1 
 - Pandas 1.4.2
@@ -176,4 +176,9 @@ Also, I have to mention that [the article](https://scikit-learn.org/stable/auto_
 
 # License
 
-This software is distributed under the MIT license. For more details, please visit `LICENSE.txt`.
+This software is distributed under the MIT license. For more details, please visit `LICENSE`.
+
+# Contact
+Junichiro KOBAYASHI almathiscenamiisento55dayone@gmail.com
+
+
