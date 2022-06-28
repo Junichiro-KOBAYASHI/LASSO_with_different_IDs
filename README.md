@@ -123,5 +123,12 @@ The text file named `xxx_output.txt` contains the following information:
   - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
   - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
 
+The PDF files are the graphs between:
+- Alphas (in normal scale) and AICs(`xxx_normalScale.pdf`)
+- Alphas (in log scale) and AICs (`xxx_logScale.pdf`)
+- Alphas (in normal scale) and coefficients of every feature(`xxx_coefPath.pdf`)
+- Alphas (in log scale) and coefficients of every feature(`xxx_coefPath_logScale.pdf`)
+<p class="warn">These parts are partially owed to [an article of scikit-learn](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py), so check it too </p>
+
 # Usage
 # Technology used
