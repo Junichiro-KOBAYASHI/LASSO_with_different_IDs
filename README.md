@@ -1,7 +1,7 @@
 # LASSO_with_different_IDs
 A software that helps you keep separated different IDs (e.g., AUTHORS_OF_THE_NOVELS) when doing LASSO regression (e.g., whose data label is PUBLICATION_YEAR) and hold-out validation.
 
-1. [About] (#About)
+1. [About] (# About)
 1. [System requirements and development] (#System%20requirements&20and%20development)
 1. [Usage] (#Usage)
 1. [Technology used] (# Technology%20used)
