@@ -153,4 +153,13 @@ Options:
                         labels. Default: Year
 </pre>
 
+So, if you are to analyze data named `sample01.csv` and would like to get output files (TXT and PDFs) named like `experiment01_coefPath.pdf`, then you have to execute `main.py` the following way:
+`$ python main.py -d sample01.csv -g experiment01`
+
+> **warning**
+> You have to make sure that the data you wish to analyze (like `sample01.csv`) is located under the directory `1_BEFORE_SPLIT`. 
+> Also, in terms of -i and -l, if the default setting is not functionable for you, check your CSV and find the proper column name:
+> In the below, default setting will work properly, based on the corresponding column names
+> 
+
 # Technology used
