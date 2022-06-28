@@ -14,9 +14,12 @@ For instance, if your train set contains works by novelist_a, then your test set
 
 This software arranges that, having the data split like:
 
-(Train set)
+(Train set: novelist_b, _c and _e)
 ![table2022_train](https://user-images.githubusercontent.com/108203298/176084789-a6968cf0-e4e3-40ab-8277-5ca8c89e885a.png)
 
+
+(Test set: novelist _a, and _d)
+![table2022_test](https://user-images.githubusercontent.com/108203298/176084984-175dfa26-d8f5-40ee-ab7e-a9a6775d4e45.png)
 
 <h2>System requirements</h2>
 As of June 28, 2022, this software is compatible to:
