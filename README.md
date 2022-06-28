@@ -118,7 +118,10 @@ The text file named `xxx_output.txt` contains the following information:
   - The path of MSEs (mean squared errors) along with alphas investigated (in `list` format)
   - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
   - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
-a 
+- Results obtained in the train set
+  - The path of MSEs (mean squared errors) along with alphas investigated (in `list` format)
+  - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
+  - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
 
 # Usage
 # Technology used
