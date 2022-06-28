@@ -41,12 +41,13 @@ In terms of operating systems I have checked:
 
 
 
-<h2>Obtain this software</h2>
+## Get ready
 If you do not have some of the libraries required (shown just above), install them.
 
 Then, just execute `$ git clone https://github.com/Junichiro-KOBAYASHI/LASSO_with_different_IDs.git` on your terminal.
 
-Now, the directories should look like:<br>
+Now, the directories should look like:
+
 <pre>
 LASSO_with_different_IDs
 │  main.py
