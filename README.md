@@ -173,6 +173,42 @@ As mentioned in [System requirements and development](#System%20requirements%20a
 - matplotlib 3.5.1 
 
 Also, I have to mention that [the article](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py) published by scikit-learn website gave me an inspiration, and the following part of the module `lasso_demo_AIC_plain.py` is cited from it, so if necessary, please cite it when using this software.
+<pre>
+plt.plot(
+        lasso.alphas_,
+        lasso.criterion_,
+        color="black",
+        label="AIC",
+        linewidth=2
+    )
+    plt.axvline(lasso.alpha_, linestyle = "--", color = "black", label="best alpha")
+    plt.xlabel(r"$\alpha$")
+    plt.ylabel("AIC")
+    plt.legend()
+    plt.title("AIC vs. alphas")
+    pdf2 = pdf.removesuffix(".pdf")
+    pdf2 = "./3_LASSO_RESULTS/"+pdf2+"_normalScale.pdf"
+    plt.savefig(pdf2)
+    plt.clf()
+
+    plt.semilogx(lasso.alphas_, lasso.criterion_, linestyle = ":")
+    plt.plot(
+        lasso.alphas_,
+        lasso.criterion_,
+        color="black",
+        label="AIC",
+        linewidth=2
+    )
+    plt.axvline(lasso.alpha_, linestyle = "--", color = "black", label="best alpha")
+    plt.xlabel(r"$\alpha$")
+    plt.ylabel("AIC")
+    plt.legend()
+    plt.title("AIC vs. alphas")
+    log_pdf = pdf.removesuffix(".pdf") # Use `Python3.9 or higher!
+    log_pdf = "./3_LASSO_RESULTS/"+log_pdf+"_logScale.pdf"
+    plt.savefig(log_pdf)
+    plt.clf()
+</pre>
 
 # License
 
