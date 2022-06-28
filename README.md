@@ -168,6 +168,7 @@ So, if you are to analyze data named `sample01.csv` and would like to get output
 > **warning**
 > You have to make sure that the data you wish to analyze (like `sample01.csv`) is located under the directory `1_BEFORE_SPLIT`. 
 > Also, in terms of `-i` and `-l`, if the default setting is not functionable for you, check your CSV and find the proper column name:
+
 > In the below, default setting will work properly, based on the corresponding column names
 > ![gazou1](https://user-images.githubusercontent.com/108203298/176132942-16a642ce-2cc8-4b25-b971-e755a5e37d12.png)
 
@@ -213,7 +214,7 @@ plt.plot(
     plt.ylabel("AIC")
     plt.legend()
     plt.title("AIC vs. alphas")
-    log_pdf = pdf.removesuffix(".pdf") # Use `Python3.9 or higher!
+    log_pdf = pdf.removesuffix(".pdf") # Use Python3.9 or higher!
     log_pdf = "./3_LASSO_RESULTS/"+log_pdf+"_logScale.pdf"
     plt.savefig(log_pdf)
     plt.clf()
