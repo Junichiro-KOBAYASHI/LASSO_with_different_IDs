@@ -21,9 +21,9 @@ This software arranges that, having the data split like:
 (Test set: novelist _a, and _d)
 ![table2022_test](https://user-images.githubusercontent.com/108203298/176084984-175dfa26-d8f5-40ee-ab7e-a9a6775d4e45.png)
 
-The splitting process is based on Python's `random.sample()` function. And the proportion of the train set is calculated as 
+The splitting process is based on Python's `random.sample()` function. And the number of unique IDs in the train set is calculated as 
 
-`int((the number of all IDs, in this case authors) * 0.7)`
+`int((the number of all unique IDs, in this case authors) * 0.7)`
 
 
 # System requirements and development
@@ -61,7 +61,7 @@ To check the compatibility and arrange an environment, go to the directory you'v
 
 If you have successfully passed this, process the directory will now look like:
 <pre>
-LASSO_PROJECT_WITH_AUTHOR_ID_TEST
+LASSO_with_different_IDs
 │  main.py
 │  processor.py
 │
@@ -130,8 +130,10 @@ The PDF files are the graphs between:
 - Alphas (in log scale) and coefficients of every feature(`xxx_coefPath_logScale.pdf`)
 
 > **warning**
-> These parts (those related to PDFs) are partially cited from [an article of scikit-learn](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py), so check it too, and if necessary, cite it
+> Information about date/time (just like `20220628_1159_39` above) is automatically added so that no file causes name duplication.
 
+## logfiles
+All your inputs will be automatically recorded into `log.txt`.
 
 # Usage
 In general all you have to do is execute `main.py`. But you have know aware of the following options:
@@ -172,7 +174,7 @@ As mentioned in [System requirements and development](#system-requirements-and-d
 - scikit-learn 1.0.2 
 - matplotlib 3.5.1 
 
-Also, I have to mention that [the article](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py) published by scikit-learn website gave me an inspiration, and the following part of the module `lasso_demo_AIC_plain.py` is cited from it, so if necessary, please cite it when using this software.
+Also, I have to mention that [the article](https://scikit-learn.org/stable/auto_examples/linear_model/plot_lasso_model_selection.html#sphx-glr-auto-examples-linear-model-plot-lasso-model-selection-py) published by scikit-learn website gave me an inspiration, and the following part of the module `lasso_demo_AIC_plain.py` is (partially) cited from it, so if necessary, please cite it when using this software.
 <pre>
 plt.plot(
         lasso.alphas_,
