@@ -56,7 +56,7 @@ LASSO_with_different_IDs
 
 To check the compatibility and arrange an environment, go to the directory you've cloned this and execute the following:
 
-`python main.py`
+`$ python main.py`
 
 
 
