@@ -8,20 +8,20 @@ This software helps you handle LASSO analysis with such data as:
 
 Let's assume that the table above is related to novels by five authors (novelist_a - novelist_e). And for each novelist, we have three works, published in 1880, 1890 and 1900. 
 
-If you are to analyze/predict the value of "Year" with LASSO analysis based on hold-out validation, you will face one problem. That is, you should not have the same author both in train and test sets.
+If you are to analyze/predict the value of "Year" with LASSO analysis based on hold-out validation, you will face one problem. That is, you should not have the same author both in training and test sets.
 
-For instance, if your train set contains works by novelist_b, then your test set should not contain any of their writings, to make hold-out validation secure, if you want to estimate language change itself (i.e., the transition of linguistic characteristics INDEPENDENT FROM authors).
+For instance, if your training set contains works by novelist_b, then your test set should not contain any of their writings, to make hold-out validation secure, if you want to estimate language change itself (i.e., the transition of linguistic characteristics INDEPENDENT FROM authors).
 
 This software arranges that, having the data split like:
 
-(Train set: novelist_b, _c and _e)
+(Training set: novelist_b, _c and _e)
 ![table2022_train](https://user-images.githubusercontent.com/108203298/176084789-a6968cf0-e4e3-40ab-8277-5ca8c89e885a.png)
 
 
 (Test set: novelist _a, and _d)
 ![table2022_test](https://user-images.githubusercontent.com/108203298/176084984-175dfa26-d8f5-40ee-ab7e-a9a6775d4e45.png)
 
-The splitting process is based on Python's `random.sample()` function. And the number of unique IDs in the train set is calculated as 
+The splitting process is based on Python's `random.sample()` function. And the number of unique IDs in the training set is calculated as 
 
 `int((the number of all unique IDs, in this case authors) * 0.7)`
 
@@ -112,9 +112,9 @@ In this directory, you will find CSV files after being split. File names are aut
 
 ## 3_LASSO_RESULTS
 The text file named `xxx_output.txt` contains the following information:
-- IDs (e.g., author_a, author_b, ...) included in the train/test set
+- IDs (e.g., author_a, author_b, ...) included in the training/test set
 - Your envirioment (version information of the library used)
-- Results obtained in the train set
+- Results obtained in the training set
   - Alphas (regularization parameter of LASSO) investigated (in `list` format)
   - The best alpha in terms of AIC (Akaike Information Criterion) (in `float` format)
   - AIC scores recorded with each alpha (in `list` format)
@@ -124,7 +124,7 @@ The text file named `xxx_output.txt` contains the following information:
   - The path of MSEs (mean squared errors) along with alphas investigated (in `list` format)
   - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
   - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
-- Results obtained in the train set
+- Results obtained in the test set
   - The path of MSEs (mean squared errors) along with alphas investigated (in `list` format)
   - The path of MAEs (mean absolute errors) along with alphas investigated (in `list` format)
   - The path of R^2 scores (coefficient of determination) along with alphas investigated (in `list` format)
